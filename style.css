@@ -21,3 +21,10 @@ a:hover {
 a:active {
 	color: #194D33;
 }
+
+.content {
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  flex-direction: row; /* default: row */
+  justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+}
