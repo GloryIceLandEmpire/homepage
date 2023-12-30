@@ -1,3 +1,8 @@
+div {
+  margin: 0px;
+  padding: 1px
+}
+
 .topbar {
   display: flex;
   align-items: center; /* 수직 정렬 */
@@ -6,8 +11,6 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
   height: 10vh;
-  margin: 0px;
-  padding: 1px;
   
 }
 .link {
