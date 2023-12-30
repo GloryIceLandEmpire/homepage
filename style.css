@@ -36,6 +36,9 @@ a:active {
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
   width:100vw;
   height:85vh;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("dynmap-rucerachiea.png"); /* The image used */
 }
 
 .downbar {
