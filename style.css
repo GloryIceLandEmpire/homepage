@@ -1,6 +1,8 @@
-.div121 {
+topbar {
   display: flex;
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
