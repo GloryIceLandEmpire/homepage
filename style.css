@@ -5,6 +5,8 @@
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  height: 10vh
+  
 }
 .link {
   text-decoration : none;
@@ -28,5 +30,14 @@ a:active {
   flex-direction: row; /* default: row */
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
   width:100vw;
-  height:100vh;
+  height:85vh;
 }
+
+.downbar {
+  height: 5vh;
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  flex-direction: row; /* default: row */
+  justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+  border-top-style: solid;
+  border-top-width: 1px;
