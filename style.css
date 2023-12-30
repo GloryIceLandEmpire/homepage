@@ -27,10 +27,5 @@ a:active {
   display: table;
   width: 100vw
   height: calc(100vh - 150px)
-}
-
-.content p {
-  display: table-cell;
-  text-allign: center;
-  veryical-align: middle
+  line-height: calc(100vh - 150px)
 }
