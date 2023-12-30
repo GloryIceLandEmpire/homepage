@@ -39,6 +39,14 @@ a:active {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-image: url("dynmap-rucerachiea.png"); /* The image used */
+  font-size: 10vh
+  color: white
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+}
 }
 
 .downbar {
