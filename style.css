@@ -1,4 +1,5 @@
 .topbar {
+  height: 100px
   display: flex;
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
@@ -27,6 +28,6 @@ a:active {
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
-  width:100vw;
-  height:100vh;
+  width: 100vw
+  height: calc(100vh - 150px)
 }
