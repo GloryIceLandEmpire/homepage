@@ -1,6 +1,6 @@
 div {
   margin: 0px;
-  padding: 1px
+  padding: 0px
 }
 
 .topbar {
@@ -11,7 +11,7 @@ div {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   height: 10vh;
-  
+  font-size: 7vh;
 }
 .link {
   text-decoration : none;
@@ -34,15 +34,13 @@ a:active {
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
-  width:100vw;
-  height:85vh;
+  height:89vh;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-image: url("dynmap-rucerachiea.png"); /* The image used */
   font-size: 10vh;
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* 테두리 효과 
-}
 }
 
 .downbar {
