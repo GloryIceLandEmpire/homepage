@@ -52,3 +52,5 @@ a:active {
   border-top-style: solid;
   border-top-width: 1px;
 }
+/* 구글 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
