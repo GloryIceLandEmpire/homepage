@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+
+div {
+  margin: 0px;
+  padding: 0px
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 10vh;
+  font-size: 5vh;
+  background-color: white;
+}
+.link {
+  text-decoration : none;
+}
+a:link {
+  color: #194D33;
+}
+a:visited {
+	color: #194D33;
+}
+a:hover {
+	color: #194D33;
+}
+a:active {
+	color: #194D33;
+}
+
+.content {
+  text-align: center;
+  height:89vh;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* background-image: url("dynmap-rucerachiea.png"); */ /* The image used */
+  font-size: 10vh;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* 테두리 효과 */
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #e6e6e6;
+}
+
+.downbar {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+ .citybuttono {
+  display: block;
+  width: 26vw;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* 수직 정렬 */
+  flex-direction: row; /* default: row */
+  background-color: black;
+  text-color: white;
+  line-height: 50vh;
+}
+
+
+ .citybuttoncg {
+    display: block;
+    width: 26vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    text-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.dosi {
+    display: inline-block;
+}
+.ds {
+  display: flex;
+  align-items: center;
+}
+/* 구글 폰트 불러오기 */
+* {
+  margin: 0;
+  padding: 0;
+
+.sbutton {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.sbutton:hover {
+	background-color:#5cbf2a;
+}
+.sbutton:active {
+	position:relative;
+	top:1px;
+}
