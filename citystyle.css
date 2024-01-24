@@ -67,7 +67,7 @@ a:active {
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
   background-color: black;
-  text-color: white;
+  color: white;
   line-height: 50vh;
 }
 
@@ -79,7 +79,7 @@ a:active {
     border: 1px solid black;
     border-radius: 10px;
     background-color: orange;
-    text-color: white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;

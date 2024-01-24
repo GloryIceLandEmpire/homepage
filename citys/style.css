@@ -31,16 +31,31 @@ a:active {
 	color: #194D33;
 }
 
-.content {
+.gm {
   display: flex;
   align-items: center; /* 수직 정렬 */
   flex-direction: row; /* default: row */
   justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
-  height:89vh;
+  height:20vh;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-image: url("dynmap-rucerachiea.png"); /* The image used */
   font-size: 10vh;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* 테두리 효과 */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.go {
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  flex-direction: row; /* default: row */
+  justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+  height:6vh;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("dynmap-rucerachiea.png"); /* The image used */
+  font-size: 5vh;
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* 테두리 효과 */
   font-family: 'Noto Sans KR', sans-serif;
@@ -56,3 +71,7 @@ a:active {
   border-top-width: 1px;
 }
 /* 구글 폰트 불러오기 */
+* {
+  margin: 0;
+  padding: 0;
+  }
